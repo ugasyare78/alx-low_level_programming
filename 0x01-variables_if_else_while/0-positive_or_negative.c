@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main function evaluates if a number is eithr postive, negative or zero.
+ * main - function evaluates if a number is eithr postive, negative or zero.
  *
  * Return: Always 0 (Success)
  */
