@@ -1,21 +1,18 @@
 #include <stdio.h>
 
 /**
-  * main - prints alphabets in lowercase
-*Return: Always 0 (Success)
-*/
-
+ * main - Prints back all the the numbers back wawrd
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	char c = 'Z';
+	int i;
 
-	/*a while loop to print the alphabets*/
-	while (c <= 'Z')
+	for (i = 122; i > 96; i--)
 	{
-		putchar(c);
-
-		--c; }
+		putchar(i);
+	}
 	putchar('\n');
-
 	return (0);
 }
