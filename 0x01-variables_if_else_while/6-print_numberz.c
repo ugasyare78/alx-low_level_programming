@@ -1,24 +1,18 @@
 #include <stdio.h>
 
 /**
-  * main - Prints single digit numbers
-  *
-  * Return: Always 0 (Success)
-  */
-
+ * main - Prints numbers between 0 to 9.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	char c = '0';
-	int n;
+	int i;
 
-	while (c <= '9')
+	for (i = 48; i < 58; i++)
 	{
-		n = c;
-		putchar(n);
-		c++;
+		putchar(i);
 	}
-
 	putchar('\n');
-
 	return (0);
 }
