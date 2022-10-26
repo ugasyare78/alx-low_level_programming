@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * print_alphabet - prints the alphabet in lowercase
@@ -8,12 +8,12 @@ include "main.h"
 
 void print_alphabet(void)
 {
-	char a;
+	char alpha;
 
-	while (a = 'a' && a <= 'z')
+	while (alpha >= 'a' && alpha <= 'z')
 	{
-		_putchar(a);
-		a++;
+		_putchar(alpha);
+		alpha++;
 	}
 
 	_putchar('\n');
